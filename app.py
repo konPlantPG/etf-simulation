@@ -99,10 +99,10 @@ def calc_value(data, data_income, companies):
 
 
 def main():
-    st.title('米国ETFシミュレーションアプリ')
+    st.title('米国ETF価格表示&シミュレーションアプリ')
 
     st.sidebar.write("""
-    # ETFシミュレーション
+    # ETF価格表示範囲
     このwebアプリはETFシミュレーションツールです。以下のオプションから日数を指定してください。
     """)
 
