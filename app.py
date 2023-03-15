@@ -103,7 +103,7 @@ def main():
 
     st.sidebar.write("""
     # ETF価格表示範囲
-    このwebアプリはETFシミュレーションツールです。以下のオプションから日数を指定してください。
+    このwebアプリはETFシミュレーションツールです。以下のオプションから月数を指定してください。
     """)
 
     months=st.sidebar.slider('月数', 1, 200, 60)
@@ -113,7 +113,7 @@ def main():
     """)
 
     st.sidebar.write("""
-    ## ETFの価格範囲
+    ## 価格グラフ縦軸範囲
     """)
     ymin, ymax= st.sidebar.slider(
         '範囲を指定してください',
@@ -121,7 +121,7 @@ def main():
     )
 
     st.sidebar.write("""
-    ## ETFの分配金範囲
+    ## 分配金グラフ縦軸範囲
     """)
 
     ymin_income, ymax_income= st.sidebar.slider(
