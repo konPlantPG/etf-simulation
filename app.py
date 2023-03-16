@@ -214,8 +214,8 @@ def main():
             st.write("内部でエラーがおきました。過去の日付や土日・休場日を避けて入力してくださると幸いです")
 
 
-        st.write("### 作者のブログ")
-        link = '[工場勤務Pythonプログラマー](https://plantprogramer.com/)'
+        st.write("### 作者のGitHub")
+        link = '[米国ETF価格表示&シミュレーションアプリ](https://github.com/konPlantPG/etf-simulation)'
         st.markdown(link, unsafe_allow_html=True)
         
 
